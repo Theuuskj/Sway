@@ -12,7 +12,7 @@ set $right l
 set $term kitty
 
 #app launcher var
-set $menu tofi-run | xargs swaymsg exec --
+set $menu tofi-drun
 #autotiling, waybar, etc.
 exec_always autotiling
 exec waybar
